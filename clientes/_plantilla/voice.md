@@ -1,6 +1,6 @@
 # voice.md
 
-Fill this file in. Every skill in the
+Fill this file in for one client. Every skill in the
 pack reads it. Ten minutes here is the difference between scripts you shoot and
 scripts you rewrite.
 
@@ -18,6 +18,7 @@ the words out loud. A line you would never say is not a draft, it is a retake.
 - **Name:**
 - **Handle:**
 - **What I do, in one sentence:**
+- **Language for all output:** (default: Spanish)
 - **Who I am talking to:** (be specific: "photographers charging under $2,000",
   not "creatives")
 - **What I sell:**
