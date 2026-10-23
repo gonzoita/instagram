@@ -28,12 +28,16 @@ the empty template.
    instead. Never overwrite a client folder.
 2. Copy `clientes/_plantilla/` to `clientes/<cliente>/`.
 3. Write `<cliente>` as the only line of `clientes/ACTIVO`.
-4. Fill `voice.md` with the user. The best input is 3 to 5 real captions or
+4. Ask for the client's brand documents (profile, competition, design) and
+   save them unchanged as `marca/perfil.md`, `marca/competencia.md` and
+   `marca/diseno.md`. If they exist, write `voice.md` from `marca/perfil.md`
+   and ask only for what it lacks. Never invent a field.
+5. Fill `voice.md` with the user. The best input is 3 to 5 real captions or
    reel transcripts from the client: ask for them, write `voice.md` from them,
    then ask only for what the samples cannot tell you (language, offer,
    audience, off-limits topics, proof, the ask). Leave a field empty rather
    than invent it.
-5. Suggest the next two steps: `/ig-profile` for a baseline score, and
+6. Suggest the next two steps: `/ig-profile` for a baseline score, and
    `/ig-viral` to build the client's `swipe.md`.
 
 ## `cambiar <nombre>`: switch client

@@ -22,6 +22,24 @@ cliente".
 - Nunca leas ni escribas en la carpeta de otro cliente. Si el usuario nombra
   otro cliente a mitad de una tarea, detente y pregunta si quiere cambiar.
 
+## Marca del cliente
+
+Cada cliente puede tener tres documentos en `clientes/<cliente>/marca/`, que son
+la fuente de verdad. Las skills los leen y no los reescriben:
+
+- `perfil.md`: identidad, oferta, clientes ideales, voz, pruebas y límites
+  (M16: lo que nunca se promete). Manda sobre `voice.md` si hay conflicto.
+- `competencia.md`: competidores, keywords con volumen y vacíos de mercado. Úsalo
+  para elegir temas (`ig-plan`, `ig-reel`, `ig-carousel`, `ig-repurpose`) y para
+  los términos de búsqueda de `ig-caption`.
+- `diseno.md`: colores, tipografías y reglas del logo. Úsalo en `ig-carousel` y
+  en cualquier pieza con imagen. Si falta un dato visual, pregunta; no lo inventes.
+
+Antes de escribir una pieza, lee `perfil.md` y respeta sus palabras prohibidas,
+precios y avisos obligatorios. Un dato marcado `[P]` (proyectado) o `[X]`
+(pendiente) no se publica como hecho: se pide validación. Si un archivo de
+`marca/` no existe, trabaja con `voice.md` y dilo en una línea.
+
 ## Idioma
 
 Escribe todo lo que se vaya a publicar en el idioma que indique el `voice.md`
